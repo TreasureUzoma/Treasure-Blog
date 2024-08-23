@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lexend&display=swap);
+
+* {
+    outline: none;
+    text-decoration: none;
+    font-family: Poppins;
+}
+body {
+    background-color: #f7f5fb;
+}
+.bg-white {
+    box-shadow: 0px 0px 10px #e3e3e3;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+nav {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+}
+.action-btn {
+    background-color: #6d28d9;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.65rem 1rem;
+}
+main {
+    margin: 7rem 0.5rem 0 0.5rem;
+}
+.contents {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0 0 2rem 0;
+}
+.blog-v-card {
+    display: flex;
+    text-align: left;
+    margin: 0 0 2rem 0;
+    align-items: center;
+    justify-content: left;
+}
+.blog-v-card img {
+    width: 5.1rem;
+    height: 5.1rem;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+}
+.blog-about {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 1.2rem;
+    font-weight: bold;
+    color: #555;
+}
+.card-title {
+    font-weight: 600;
+    font-size: 0.93rem;
+    color: #666;
+    line-height: 1.4rem;
+}
+.card-text {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+.blog-time {
+    color: #777;
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+.blog-about:hover {
+    color: #6d28d9;
+}
+footer {
+    margin: 0 0.5rem 0 0.5rem;
+}
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 2rem 0;
+    padding: 1rem 1.8rem;
+}
+.newsletter div {
+    text-align: center;
+}
+.newsletter input {
+    width: 78%;
+    border-radius: 25px;
+    border: none;
+    padding: 0.7em 1.1rem;
+}
+.newsletter button {
+    background-color: #6d28d9;
+    border: none;
+    padding: 0.8rem 1.1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    color: #fff;
+}
+.newsletter span {
+    border-radius: 18px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 25px;
+    border: 1px solid #666;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+.newsletter p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #222;
+    font-family: Lexend;
+}
+.newsletter b {
+    color: #6d28d9;
+}
+@media (min-width: 750px) {
+    .footer-wrapper {
+        display: grid;
+        place-items: center;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+@media (min-width: 779px) {
+    main {
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .blog-v-card {
+        justify-content: left;
+    }
+}
