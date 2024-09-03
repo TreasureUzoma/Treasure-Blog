@@ -1,11 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Lexend&display=swap);
 
-* {
-    outline: none;
-    text-decoration: none;
-    font-family: Poppins;
-}
 body {
     background-color: #f7f5fb;
 }
@@ -25,13 +18,9 @@ nav {
     padding: 1rem;
     display: flex;
 }
-.action-btn {
-    background-color: #6d28d9;
-    border: none;
-    font-weight: 600;
-    color: #fff;
-    border-radius: 10px;
-    padding: 0.65rem 1rem;
+.text-logo {
+  font-weight: bold;
+  color: #111;
 }
 main {
     margin: 7rem 0.5rem 0 0.5rem;
@@ -53,9 +42,9 @@ main {
 .blog-v-card img {
     width: 5.1rem;
     height: 5.1rem;
-    border: none;
     border-radius: 10px;
     justify-content: center;
+    border: none;
 }
 .blog-about {
     display: inline-flex;
@@ -128,7 +117,7 @@ footer {
 .newsletter b {
     color: #6d28d9;
 }
-@media (min-width: 750px) {
+@media (min-width: 720px) {
     .footer-wrapper {
         display: grid;
         place-items: center;

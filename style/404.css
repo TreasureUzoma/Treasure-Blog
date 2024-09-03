@@ -1,0 +1,17 @@
+.centered-body {
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5rem;
+}
+p {
+    color: #333;
+}
+a {
+    font-weight: bold;
+    color: #6d28d9;
+}
